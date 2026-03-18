@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://c.top4top.io/p_36893h84f1.jpg" width="250"/>
+  <img src="https://a.top4top.io/p_37287xrhs1.jpg" width="250"/>
 </p>
 
 <h1 align="center">Modified WhatsApp Baileys</h1>
@@ -27,3 +27,78 @@ const {
   // Other Options 
 } = require('@whiskeysockets/baileys');
 ```
+
+---
+# How To Connect To Whatsapp
+## With QR Code
+```javascript
+const {
+  default: makeWASocket
+  // Other Options
+} = require('@whiskeysockets/baileys');
+
+const client = makeWASocket({
+  browser: ['Ubuntu', 'Chrome', '20.00.1'],
+  printQRInTerminal: true
+})
+```
+
+## Connect With Number
+```javascript
+const {
+  default: makeWASocket,
+  fetchLatestWAWebVersion
+} = require('@whiskeysockets/baileys');
+
+const client = makeWASocket({
+  browser: ['Ubuntu', 'Chrome', '20.00.1'],
+  printQRInTerminal: false,
+  version: fetchLatestWAWebVersion()
+  // Other options
+});
+
+const number = "628XXXXX";
+const code = await client.requestPairingCode(number.trim) /* Use : (number, "YYYYYYYY") for custom-pairing */
+
+console.log("Ur pairing code : " + code)
+```
+
+---
+
+## Why Choose WhatsApp Baileys?
+
+Because this library offers high stability, full features, and an actively improved pairing process. It is ideal for developers aiming to create professional and secure WhatsApp automation solutions. Support for the latest WhatsApp features ensures compatibility with platform updates.
+
+---
+
+### Technical Notes
+
+- Supports custom pairing codes that are stable and secure
+- Fixes previous issues related to pairing and authentication
+- Features interactive messages and action buttons for dynamic menu creation
+- Automatic and efficient session management for long-term stability
+- Compatible with the latest multi-device features from WhatsApp
+- Easy to integrate and customize based on your needs
+- Perfect for developing bots, customer service automation, and other communication applications
+- Has 1 newsletter follow, only the developer's WhatsApp channel: [WhatsApp Channel](https://whatsapp.com/channel/0029VbBdf5sATRStSkGm7l2h)
+
+---
+
+For complete documentation, installation guides, and implementation examples, please visit the official repository and community forums. We continually update and improve this library to meet the needs of developers and users of modern WhatsApp automation solutions.
+
+**Thank you for choosing WhatsApp Baileys as your WhatsApp automation solution!**
+
+
+---
+
+
+### Contact Developer
+
+For questions, support, or collaboration, feel free to contact the developer:
+
+- **Telegram**: [Telegram Contact](https://t.me/vinzxiterr)
+- **Channel**: [Channel Telegram](https://t.me/vinzxcommnty) 
+
+### 🙌 Contributors outside the Baileys code
+
+Thanks to the following awesome contributors who help improve this project 💖
