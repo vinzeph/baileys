@@ -3,13 +3,7 @@
     "version": "2.0.3",
     "description": "WhatsApp API Modification By VinZephyrine",
     "keywords": [
-        "whatsapp",
-        "baileys",
-        "whatsapp-web",
-        "whatsapp-chat",
-        "whatsapp-group",
-        "botwa",
-        "vinzephyrine"
+        "whatsapp-baileys"
     ],
     "homepage": "https://github.com/vinzeph/baileys",
     "repository": {
